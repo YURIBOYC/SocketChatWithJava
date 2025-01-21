@@ -44,7 +44,7 @@ public class User1 extends Frame implements Runnable, ActionListener {
             chat = new Thread(this);
             chat.start();
         } catch (IOException e) {
-            System.out.println(e);;
+            System.out.println(e);
         }
     }
 

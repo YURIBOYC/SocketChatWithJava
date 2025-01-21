@@ -10,7 +10,6 @@ public class User2 extends Frame implements Runnable, ActionListener {
     TextField textField;
     TextArea textArea;
     Button send;
-
     Socket socket;
     DataInputStream dataInputStream;
     DataOutputStream dataOutputStream;
